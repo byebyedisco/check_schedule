@@ -9,8 +9,8 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "1.7.2",
-	"appid": "touristappid",
-	"projectname": "datapicker",
+	"appid": "wxb54a52a9a4b791c4",
+	"projectname": "check-schedule",
 	"condition": {
 		"search": {
 			"current": -1,

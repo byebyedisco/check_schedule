@@ -1,5 +1,6 @@
 # checkSchedule
 
+```js
 function checkSchedule() {
     var targetDate = new Date("2018-06-16");
     // Set the unit values in milliseconds.
@@ -16,3 +17,4 @@ function checkSchedule() {
     var index = days % 4;
 	zzrw.alert(schedule[index]);
 }
+```

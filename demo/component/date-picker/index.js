@@ -150,6 +150,11 @@ Component({
         currMonth: data[1],
         days: days,
       })
+
+
+      const dateStr = selected.join('/')
+      const dateStr1 = this.formatTime(new Date(dateStr), 'yyyy-MM-dd')
+      this.triggerEvent('onselectdate', { date: dateStr1 })
     },
 
     handleDatePickerChange(e) {

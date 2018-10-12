@@ -1,10 +1,10 @@
 <!--index.wxml-->
 <view class="container">
     <view class="row">
-    <view class="label">日期选择</view>
+    <view class="label">点击日期查看排班</view>
       <date-picker bindonselectdate="handleSelecteDate" />
     </view>
 
-    <view>{{ schedule }}</view>
+    <view class='result'>{{ schedule }}</view>
 
 </view>

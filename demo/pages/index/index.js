@@ -8,7 +8,7 @@ Page({
   },
   onLoad: function() {},
   handleSelecteDate(e) {
-    wx.showToast({ title: `${e.detail.date}`, icon: false })
+    // wx.showToast({ title: `${e.detail.date}`, icon: false })
     // console.log(e.detail.date);
     var targetDate = new Date(e.detail.date);
     // Set the unit values in milliseconds.

@@ -32,9 +32,9 @@
       </view>
     </picker>
     <view class="" style="display:flex;justify-content:flex-end;align-items:flex-end;flex:2">
-      <button bindtap="handleReset" style="margin:0;padding-left:20rpx;padding-right:20rpx;" size="mini" type="default">清空</button>
+      <!-- <button bindtap="handleReset" style="margin:0;padding-left:20rpx;padding-right:20rpx;" size="mini" type="default">清空</button>
       <button bindtap="handleChooseToday" style="margin:0;padding-left:20rpx;padding-right:20rpx;margin-left:24rpx;" size="mini" type="default">今天</button>
-      <button disabled="{{!selected||selected.length<3}}" bindtap="handleConfirm" style="margin:0;padding-left:20rpx;padding-right:20rpx;margin-left:24rpx;" size="mini" type="warn">确定</button>
+      <button disabled="{{!selected||selected.length<3}}" bindtap="handleConfirm" style="margin:0;padding-left:20rpx;padding-right:20rpx;margin-left:24rpx;" size="mini" type="warn">确定</button> -->
     </view>
   </view>
 </view>

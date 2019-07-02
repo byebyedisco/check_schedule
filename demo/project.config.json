@@ -11,6 +11,8 @@
 	"libVersion": "1.7.2",
 	"appid": "wxb54a52a9a4b791c4",
 	"projectname": "check-schedule",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
 	"condition": {
 		"search": {
 			"current": -1,

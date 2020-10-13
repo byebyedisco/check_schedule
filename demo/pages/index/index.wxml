@@ -1,18 +1,18 @@
 <!--index.wxml-->
 <view class="container">
-    <view class="row">
-    <view class="section" style="display:flex; justify-content:center; align-items:center;">
+  <view class="row">
+    <!-- <view class="section" style="display:flex; justify-content:center; align-items:center;"> -->
       <!-- <view class="section__title">普通选择器</view> -->
-       <picker bindchange="bindPickerChange" value="{{role_index}}" range="{{role_array}}">
-      <view class="picker">
-        当前选择：{{role_array[role_index]}}
-      </view>
-  </picker>
-</view>
+      <!-- <picker bindchange="bindPickerChange" value="{{role_index}}" range="{{role_array}}"> -->
+        <!-- <view class="picker"> -->
+          <!-- 当前选择：{{role_array[role_index]}} -->
+        <!-- </view> -->
+      <!-- </picker> -->
+    <!-- </view> -->
     <!-- <view class="label">点击日期查看排班</view> -->
-      <date-picker bindonselectdate="handleSelecteDate" />
-    </view>
+    <date-picker bindonselectdate="handleSelecteDate" />
+  </view>
 
-    <view class='result'>{{ schedule }}</view>
+  <view class='result'>{{ schedule }}</view>
 
 </view>
